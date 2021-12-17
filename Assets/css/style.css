@@ -86,7 +86,7 @@ img {
     font-weight: bold;
 }
 
-.anchor3 {
+#Anchor3 {
     height: 100vh;
 }
 
@@ -95,7 +95,6 @@ img {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
 }
 
 .Boot-Camp-Projects header {
@@ -113,11 +112,9 @@ img {
     flex-shrink: 0;
 }
 
-.Boot-Camp-Projects section h2 {
+.Boot-Camp-Projects section {
     border: 5px solid;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 25%;
+    justify-content: space-evenly;
     color: rgb(255, 255, 255);
     margin: 15px;
     color: rgb(0, 0, 0);
@@ -136,18 +133,12 @@ img {
     color: rgb(0, 0, 0);
   }
 }
-.Personal-Projects {
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0%;
+.Personal-Projects header {
     position: absolute;
-    bottom: -300%;
-    left: 45%;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+    bottom: -500%;
+    margin: 0;
 }
+
 .Contact-Me {
     height: 100vh;
     display: flex;
