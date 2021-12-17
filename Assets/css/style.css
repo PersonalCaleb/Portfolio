@@ -43,48 +43,54 @@ body {
     padding: 0px 0px;
 }
   
-.Welcome {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 70px;
-    margin: 0%;
-    position: absolute;
-    bottom: 5%;
-    left: 34%;
-    color: white;
-}
-
 img {
     width: 100%;
     height: 100vh;
     margin: 0;
   }
 
-.About-Me {
+#Anchor1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.Welcome {
+    font-size: 70px;
+    margin: 0%;
+    position: absolute;
+    bottom: 51%;
+    left: 33%;
+    color: white;
+}
+
+#Anchor2 {
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+}
+
+.About-Me {
     justify-content: center;
     position: absolute;
-    bottom: -100%;
+    bottom: -50%;
     color: rgb(0, 0, 0);
-    margin: 0;
 }
 
 .About-Me h1 {
     text-align: center;
     font-weight: bold;
+    padding-right: 1000px;;
     font-size: 50px;
     margin: 40;
 }
+
 .About-Me p {
-    text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    font-weight: bold;
-}
+    padding-right: 1000px;
+    padding-left: 50px;
+    font-size: 20px;
+    }
 
 #Anchor3 {
     height: 100vh;
@@ -133,10 +139,21 @@ img {
     color: rgb(0, 0, 0);
   }
 }
+.Personal-Projects {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+
+}
+
 .Personal-Projects header {
     position: absolute;
-    bottom: -500%;
-    margin: 0;
+    bottom: -210%;
+    left: 45%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
 }
 
 .Contact-Me {
@@ -151,14 +168,13 @@ img {
 }
 
 footer {
-    background-color: rgb(0, 0, 0);
-    height: 50px;
-    color: #ffffff;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    color: #ffffff;
+    margin-left: 133px;
 }
 
 @media screen and (min-width: 1100px) {
